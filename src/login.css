@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.img_nav{
+    margin: 30px;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;  
+    gap: 10px;
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90.47deg, #FBEBF9 0.46%, #ECECFC 99.66%);
+    position: sticky;
+}
+
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 785px;
+    height: 14px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    list-style: none;
+}
+.navBar li{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: #394099;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.navBar img{
+    width: 75px;
+    height: 72px;
+}
+.navBar a{
+    text-decoration: none;
+}
+.navBar button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    width: 155px;
+    height: 46px;
+    background: #DE208E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #fff;
+    border: none;
+    justify-content: center;
+}
+.titulo{
+    position: absolute;
+    width: 466px;
+    height: 32px;
+    left: 136px;
+    top: 240px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+letter-spacing: 0.05em;
+}
+.titulo_dos{
+    position: absolute;
+    width: 800px;
+    height: 48px;
+    left: 136px;
+    top: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+}
+.subtitulo{
+    position: absolute;
+    width: 519px;
+    height: 48px;
+    left: 0px;
+    top: 80px;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+color: #8186BF;
+}
+.frame{
+    position: absolute;
+    width: 504px;
+    height: 599px;
+    left: 447px;
+    top: 136px;
+    opacity: 1;
+}
+.boton_registro{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 227px;
+    height: 25px;
+    left: 136px;
+    top: 525px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #616161;
+}
+
+.boton_registrate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 97px;
+    height: 39px;
+    background: #394099;
+    border-radius: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+}
+.registro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+    width: 311px;
+    height: 378px;
+    left: 999px;
+    top: 225px;   
+}
+.usuario{
+    filter: drop-shadow(0px 21px 8px rgba(0, 0, 0, 0.01)) drop-shadow(0px 12px 7px rgba(0, 0, 0, 0.02)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.05));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    width: 311px;
+    height: 39px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+}
+.contraseña{
+    filter: drop-shadow(0px 21px 8px rgba(0, 0, 0, 0.01)) drop-shadow(0px 12px 7px rgba(0, 0, 0, 0.02)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.04)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.05));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    width: 311px;
+    height: 39px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+}
+.boton_ingresar{
+    background: #DE208E;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 311px;
+    height: 39px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Texto */
+
+.texto{
+    width: 311px;
+    height: 0px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 311;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: right;
+    color: #8186BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+.manzana{
+    position: absolute;
+left: 81.67%;
+right: 9.97%;
+top: 89.15%;
+bottom: 2.65%;
+}
+.facebook{
+    position: absolute;
+left: 47.27%;
+right: 46.95%;
+top: 89.15%;
+bottom: 2.12%;
+}
+.google{
+    position: absolute;
+left: 9.65%;
+right: 81.03%;
+top: 89.68%;
+bottom: 2.38%;
+}
+.inicia_sesion{
+    position: absolute;
+left: 32.15%;
+right: 31.51%;
+top: 76.19%;
+bottom: 17.72%;
+
+/* Texto */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 23px;
+/* identical to box height, or 162% */
+
+text-align: center;
+
+/* Violeta - 100% */
+
+color: #394099;
+}
